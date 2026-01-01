@@ -1,0 +1,311 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9355e69e-bf5a-447b-901f-f5bfc92231c0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "FPGA_Connector:FPGA_Connector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FPGA_Connector1"
+				(at 1.27 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
+				(at 13.97 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FPGA_Connector_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FPGA_Connector_1_1"
+				(pin input line
+					(at -10.16 -5.08 180)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 10.16 0)
+					(length 2.54)
+					(name "RF_UART_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 0)
+					(length 2.54)
+					(name "RF_UART_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 0)
+					(length 2.54)
+					(name "GPS_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -1.27 0)
+					(length 2.54)
+					(name "GPS_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 0)
+					(length 2.54)
+					(name "CAN_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -8.89 0)
+					(length 2.54)
+					(name "CAN_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Connector:FPGA_Connector")
+		(at 146.05 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6578937-ae2c-4a75-b57b-c1e22a104fa3")
+		(property "Reference" "FPGA_Connector1"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 160.02 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "a161d86f-c031-4a46-8905-0038063c0872")
+		)
+		(pin "1"
+			(uuid "801b47a7-0f99-414e-af5e-e69adfbb18e0")
+		)
+		(pin "2"
+			(uuid "6660f7ee-0c1f-4e96-9e5c-4c6d360556d3")
+		)
+		(pin "4"
+			(uuid "f6176cd2-0913-460d-81c8-24025561d1d9")
+		)
+		(pin "3"
+			(uuid "ec14c597-0ff0-4810-b3f2-9666c9404377")
+		)
+		(pin "5"
+			(uuid "fb125fc3-5868-49d4-99a4-58af8f58b9d3")
+		)
+		(pin "8"
+			(uuid "f271fc05-0eee-465a-878c-f091731149a7")
+		)
+		(pin "6"
+			(uuid "98e59661-fdb8-4712-84a2-d148faa024b3")
+		)
+		(instances
+			(project ""
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/555dcf2f-9cf7-4916-9b4f-3a8f620095c0"
+					(reference "FPGA_Connector1")
+					(unit 1)
+				)
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/5da8fdf4-ad8c-47df-b08e-df168b9b0cb6"
+					(reference "FPGA_Connector1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f13eb969-5de0-437e-a1b7-e0204111e0b2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 156.845 64.77)
+		(size 59.055 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "555dcf2f-9cf7-4916-9b4f-3a8f620095c0")
+		(property "Sheetname" "FPGAConnector"
+			(at 156.845 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGAConnector.kicad_sch"
+			(at 156.845 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.105 64.135)
+		(size 58.42 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5da8fdf4-ad8c-47df-b08e-df168b9b0cb6")
+		(property "Sheetname" "Power"
+			(at 78.105 63.4234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 78.105 124.4096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.115 106.68)
+		(size 57.785 33.655)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6349284a-84d0-4426-872b-273836eb7053")
+		(property "Sheetname" "RF"
+			(at 158.115 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF.kicad_sch"
+			(at 158.115 140.9196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 149.86)
+		(size 54.61 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8680ae9-0acb-42e1-892b-ebdc48294ea6")
+		(property "Sheetname" "GPS"
+			(at 34.29 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS.kicad_sch"
+			(at 34.29 184.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 148.59)
+		(size 54.61 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "deed15db-a132-4198-8ee6-126292ab05fe")
+		(property "Sheetname" "CAN"
+			(at 99.06 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 99.06 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
