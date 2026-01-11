@@ -5,26 +5,24 @@
 	(uuid "9355e69e-bf5a-447b-901f-f5bfc92231c0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "FPGA_Connector:FPGA_Connector"
+		(symbol "FPGA_Connector_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "FPGA_Connector1"
-				(at 1.27 13.97 0)
+			(property "Reference" "CPU_Connector"
+				(at 7.112 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "~"
-				(at 13.97 -1.2699 0)
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -54,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FPGA_Connector_0_1"
+			(symbol "FPGA_Connector_1_0_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -67,18 +65,18 @@
 					)
 				)
 			)
-			(symbol "FPGA_Connector_1_1"
-				(pin input line
-					(at -10.16 -5.08 180)
+			(symbol "FPGA_Connector_1_1_1"
+				(pin passive line
+					(at -10.16 10.16 180)
 					(length 2.54)
-					(name "12V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -86,10 +84,28 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -8.89 180)
+				(pin passive line
+					(at -10.16 6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -104,82 +120,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 10.16 0)
+				(pin passive line
+					(at -10.16 -1.27 180)
 					(length 2.54)
-					(name "RF_UART_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 6.35 0)
-					(length 2.54)
-					(name "RF_UART_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 0)
-					(length 2.54)
-					(name "GPS_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -1.27 0)
-					(length 2.54)
-					(name "GPS_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -5.08 0)
-					(length 2.54)
-					(name "CAN_RX"
+					(name "TEL_CAN_TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -194,10 +138,100 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -8.89 0)
+				(pin passive line
+					(at -10.16 -5.08 180)
 					(length 2.54)
-					(name "CAN_TX"
+					(name "CAR_CAN_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 0)
+					(length 2.54)
+					(name "TEL_CAN_RX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -212,40 +246,354 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 10.16 -5.08 0)
+					(length 2.54)
+					(name "CAR_CAN_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -8.89 0)
+					(length 2.54)
+					(name "3v3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FPGA_Connector_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FPGA_Connector"
+				(at 7.112 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FPGA_Connector_2_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FPGA_Connector_2_1_1"
+				(pin passive line
+					(at -10.16 10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 180)
+					(length 2.54)
+					(name "GPS_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -8.89 180)
+					(length 2.54)
+					(name "RF_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 0)
+					(length 2.54)
+					(name "GPS_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -8.89 0)
+					(length 2.54)
+					(name "RF_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
 	(symbol
+		(lib_name "FPGA_Connector_1")
 		(lib_id "FPGA_Connector:FPGA_Connector")
-		(at 146.05 93.98 0)
+		(at 124.46 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6578937-ae2c-4a75-b57b-c1e22a104fa3")
-		(property "Reference" "FPGA_Connector1"
-			(at 147.32 80.01 0)
+		(uuid "9b3c9ad8-2758-411c-90f2-93b4873cdf5c")
+		(property "Reference" "CPU_Connector"
+			(at 131.572 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 160.02 95.2499 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 93.98 0)
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,7 +602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 93.98 0)
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 93.98 0)
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,38 +619,144 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "a161d86f-c031-4a46-8905-0038063c0872")
+		(pin "3"
+			(uuid "69711396-2ab5-4e80-b730-78a07c5e2c61")
 		)
 		(pin "1"
-			(uuid "801b47a7-0f99-414e-af5e-e69adfbb18e0")
+			(uuid "b697e37b-9601-44bd-9ba1-4bcd30e1ef40")
 		)
 		(pin "2"
-			(uuid "6660f7ee-0c1f-4e96-9e5c-4c6d360556d3")
+			(uuid "ae710844-f9d4-4203-bbe8-d2e3ef74c732")
 		)
 		(pin "4"
-			(uuid "f6176cd2-0913-460d-81c8-24025561d1d9")
-		)
-		(pin "3"
-			(uuid "ec14c597-0ff0-4810-b3f2-9666c9404377")
-		)
-		(pin "5"
-			(uuid "fb125fc3-5868-49d4-99a4-58af8f58b9d3")
+			(uuid "7da6149d-ec8c-41a6-b680-dad632ba6fce")
 		)
 		(pin "8"
-			(uuid "f271fc05-0eee-465a-878c-f091731149a7")
+			(uuid "9f47c8a2-e3d9-486a-b66f-d66730e81000")
+		)
+		(pin "5"
+			(uuid "f1f185c6-c838-479a-830a-7c538d98af7e")
+		)
+		(pin "11"
+			(uuid "cc710633-6b7e-4a63-bb75-854907f397f7")
 		)
 		(pin "6"
-			(uuid "98e59661-fdb8-4712-84a2-d148faa024b3")
+			(uuid "8118da67-3dda-4e71-b838-2296f24c35af")
+		)
+		(pin "7"
+			(uuid "f24df918-7dd0-47b4-9851-46e6ff64ceab")
+		)
+		(pin "12"
+			(uuid "efe53b71-b794-4053-bb80-c06a4b26ece4")
+		)
+		(pin "9"
+			(uuid "2d4685ed-c3d1-49ac-9b10-3ed3e10d5f69")
+		)
+		(pin "10"
+			(uuid "dcf6125b-29b1-4910-bf35-f2dc78f7e26e")
 		)
 		(instances
-			(project ""
+			(project "TSOMProject"
 				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/555dcf2f-9cf7-4916-9b4f-3a8f620095c0"
-					(reference "FPGA_Connector1")
+					(reference "CPU_Connector")
 					(unit 1)
 				)
-				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/5da8fdf4-ad8c-47df-b08e-df168b9b0cb6"
-					(reference "FPGA_Connector1")
+			)
+		)
+	)
+	(symbol
+		(lib_name "FPGA_Connector_2")
+		(lib_id "FPGA_Connector:FPGA_Connector")
+		(at 119.38 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a981b0c6-67ce-4c60-9cc8-c2ba3844e67e")
+		(property "Reference" "FPGA_Connector"
+			(at 126.492 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b4bba04f-9047-4d1a-9f61-3477166c99b8")
+		)
+		(pin "1"
+			(uuid "e4796742-dec8-4826-8ab8-343dcf9695d2")
+		)
+		(pin "2"
+			(uuid "362adb40-5264-4c69-a44a-15bb36b4b772")
+		)
+		(pin "4"
+			(uuid "70cf0972-ceac-49d0-b062-24f08f4bcc7b")
+		)
+		(pin "8"
+			(uuid "6fa6b862-cecf-47b5-913e-b650c0d0b473")
+		)
+		(pin "5"
+			(uuid "231dfb4d-1966-4893-9810-b597a92fcc16")
+		)
+		(pin "11"
+			(uuid "483345b4-cf21-4918-812b-8467f3cdbd73")
+		)
+		(pin "6"
+			(uuid "43895bbc-9933-47f7-bc66-5373bcf38f39")
+		)
+		(pin "7"
+			(uuid "0a16fcef-e225-4412-93fb-2eff5606361a")
+		)
+		(pin "12"
+			(uuid "d46e4ade-8cca-4eaa-8b27-6d52ab4daf4e")
+		)
+		(pin "9"
+			(uuid "93e7b1bb-c32e-4bf4-8264-51f9c5e42cb9")
+		)
+		(pin "10"
+			(uuid "138e486b-cb41-4d9c-8762-0316f81a0a1e")
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/555dcf2f-9cf7-4916-9b4f-3a8f620095c0"
+					(reference "FPGA_Connector")
 					(unit 1)
 				)
 			)
