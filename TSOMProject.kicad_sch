@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "555dcf2f-9cf7-4916-9b4f-3a8f620095c0")
-		(property "Sheetname" "FPGAConnector"
+		(property "Sheetname" "Connector"
 			(at 156.845 64.0584 0)
 			(effects
 				(font
@@ -84,7 +84,7 @@
 		(instances
 			(project "TSOMProject"
 				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
-					(page "1")
+					(page "2")
 				)
 			)
 		)
@@ -211,6 +211,48 @@
 			(project "TSOMProject"
 				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.195 32.385)
+		(size 47.625 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef6d8fcc-1a96-4a17-99c8-973fa999e378")
+		(property "Sheetname" "IMU"
+			(at 163.195 31.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 163.195 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
+					(page "7")
 				)
 			)
 		)
