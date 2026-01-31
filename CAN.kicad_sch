@@ -1687,7 +1687,7 @@
 		)
 		(uuid "6716c0c8-5f75-496e-ac5c-c9998b379f61")
 	)
-	(text "Telemetry CAN Bus Termination"
+	(text "Car CAN Bus Termination"
 		(exclude_from_sim no)
 		(at 89.154 72.644 0)
 		(effects
