@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ASM330LHHTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "ASM330LHHTR" (!) = "", "LSM6DS3USTR", "Other", "511-ASM330LHHTR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ASM330LHHTR?qs=lc2O%252BfHJPVYgP8P9MzExKQ%3D%3D", "STMICROELECTRONICS - ASM330LHHTR - MEMS MOD, 3-AXIS GYROSCOPE/ACCELEROMETER", "https://www.st.com/resource/en/datasheet/asm330lhh.pdf", "0.86 mm"
+END_PART
+
+END.

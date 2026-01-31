@@ -1,4 +1,4 @@
-26634610375616589
+26767271418135490
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59324,6 +59324,62 @@ ceramic
 0
 3
 3
+DataAcqGPS
+BAT_2994TR
+
+
+0
+3
+3
+DataAcqGPS
+CONN_SD-43650-006_02_MOL
+
+436500215 
+0
+2
+2
+DataAcqGPS
+DigiXBee3LTECat4
+
+
+0
+20
+20
+DataAcqGPS
+PA1616S_ADA
+
+790 
+0
+20
+20
+DataAcqGPS
+XBeeXR900RFMicro
+
+
+0
+34
+34
+DataAcqGPS
+otter
+
+
+0
+0
+0
+DataAcqGPS
+stonks
+
+
+0
+0
+0
+DataAcqGPS
+sun
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -69299,6 +69355,13 @@ solder jumper open
 0
 3
 3
+KiCad
+LSM6DS3USTR
+LGA-14(2.5x3x0.86)
+Integrated Circuit
+0
+14
+14
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -105468,6 +105531,468 @@ igbt diode module
 0
 25
 25
+UTSVT_Connectors
+5754
+575-4-3
+Test Point
+0
+1
+1
+UTSVT_Connectors
+105313-1103
+Molex Nano-Fit Power Connectors, 105313-xx03, 3 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit horizontal
+0
+3
+3
+UTSVT_Connectors
+105313-1106
+Molex Nano-Fit Power Connectors, 105313-xx06, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit horizontal
+0
+6
+6
+UTSVT_Connectors
+105313-2102
+Molex Nano-Fit Power Connectors, 105313-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+2
+2
+UTSVT_Connectors
+105314-1306
+Molex Nano-Fit Power Connectors, 105314-xx06, 3 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit horizontal
+0
+6
+6
+UTSVT_Connectors
+524652470
+52465-2470-1
+Connector
+0
+24
+24
+UTSVT_Connectors
+533072471
+53307-2471-3
+Connector
+0
+24
+24
+UTSVT_Connectors
+AMASS_XT30PW-M_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+RC Connector XT30
+0
+4
+2
+UTSVT_Connectors
+AMASS_XT30UPB-M_1x02_P5.0mm_Vertical
+Connector XT30 Vertical PCB Male, https://www.tme.eu/en/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+UTSVT_Connectors
+Banana_Jack_1_Pin_4mm
+
+
+0
+1
+1
+UTSVT_Connectors
+CONN_SFH11-xxxC-D05-ST-XX_SUL
+
+SFH11-PBPC-D05-ST-BK 
+0
+10
+10
+UTSVT_Connectors
+CUI_UJ31-CH-G2-SMT-TR
+
+
+0
+28
+28
+UTSVT_Connectors
+FUSE_3568
+
+
+0
+4
+2
+UTSVT_Connectors
+MX150_02x02_Vertical
+
+757575121 
+0
+4
+4
+UTSVT_Connectors
+MX150_02x03_RightAngle
+
+759001131 
+0
+6
+6
+UTSVT_Connectors
+MX150_02x03_Vertical
+
+757575131 
+0
+6
+6
+UTSVT_Connectors
+MX150_02x04_RightAngle
+
+759001141 
+0
+8
+8
+UTSVT_Connectors
+MX150_02x04_Vertical
+
+757575141 
+0
+8
+8
+UTSVT_Connectors
+MX150_02x06_RightAngle
+
+759001161 
+0
+12
+12
+UTSVT_Connectors
+MX150_02x06_Vertical
+
+757575461 
+0
+12
+12
+UTSVT_Connectors
+MX150_02x08_RightAngle
+
+759001181 
+0
+16
+15
+UTSVT_Connectors
+MX150_02x08_Vertical
+
+757575481 
+0
+16
+16
+UTSVT_Connectors
+MX150_02x10_RightAngle
+
+759001101 
+0
+20
+20
+UTSVT_Connectors
+MX150_02x10_Vertical
+
+757575101 
+0
+20
+20
+UTSVT_Connectors
+Maxi_Carrier_Connector
+
+
+0
+56
+28
+UTSVT_Connectors
+Molex2x10_horizontal
+
+
+0
+22
+20
+UTSVT_Connectors
+Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43045-1800 (alternative finishes: 43045-180x), 9 Pins per row (https://www.molex.com/pdm_docs/sd/430450201_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+18
+18
+UTSVT_Connectors
+Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical
+
+
+0
+2
+2
+UTSVT_Connectors
+Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical
+
+
+0
+3
+3
+UTSVT_Connectors
+Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical
+
+
+0
+4
+4
+UTSVT_Connectors
+Molex_MicroFit3.0_2x4xP3.00mm_PolarizingPeg_Vertical
+Molex Micro-Fit 3.0 Connector System, 43045-0812 (compatible alternatives: 43045-0813, 43045-0824), 4 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+8
+8
+UTSVT_Connectors
+Molex_MicroFit3.0_2x6xP3.00mm_PolarizingPeg_Vertical
+Molex Micro-Fit 3.0 Connector System, 43045-1212 (compatible alternatives: 43045-1213, 43045-1224), 6 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+12
+12
+UTSVT_Connectors
+Molex_MicroFit_01x06_Horizontal
+
+
+0
+8
+6
+UTSVT_Connectors
+Molex_MicroFit_01x07_Horizontal
+
+
+0
+9
+7
+UTSVT_Connectors
+Molex_Microfit3.0_02x03_6-Pin-Vertical-PCB-Receptacle_447690601
+
+447690601 
+0
+6
+6
+UTSVT_Connectors
+Molex_Microfit3.0_02x07_14-Pin-Horizontal-PCB-Receptacle_447641401
+
+447641401 
+0
+14
+14
+UTSVT_Connectors
+Molex_Microfit3.0_02x07_14-Pin-Vertical-PCB-Receptacle_447691401
+
+447691401 
+0
+14
+14
+UTSVT_Connectors
+Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical
+Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+2
+2
+UTSVT_Connectors
+Molex_Nano-Fit_105309-xx03_1x03_P2.50mm_Vertical
+Molex Nano-Fit Power Connectors, 105309-xx03, 3 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit vertical
+0
+3
+3
+UTSVT_Connectors
+Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical
+
+
+0
+4
+4
+UTSVT_Connectors
+Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical
+Molex Nano-Fit Power Connectors, 105310-xx10, 5 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit vertical
+0
+10
+10
+UTSVT_Connectors
+Molex_Nano-Fit_105310-xx12_2x06_P2.50mm_Vertical
+Molex Nano-Fit Power Connectors, 105310-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit vertical
+0
+12
+12
+UTSVT_Connectors
+Molex_Nano-Fit_105313-xx07_1x07_P2.50mm_Horizontal
+Molex Nano-Fit Power Connectors, 105313-xx07, 7 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+7
+7
+UTSVT_Connectors
+PeripheralSOM
+
+
+0
+36
+28
+UTSVT_Connectors
+SAMTEC_ET60S-D02-3-08-D02-X-V1-S
+
+
+0
+56
+56
+UTSVT_Connectors
+SAMTEC_ET60T-D02-3-08-D02-X-R1-S
+
+
+0
+64
+28
+UTSVT_Connectors
+USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal
+USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf
+USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120
+0
+20
+20
+UTSVT_Connectors
+Vicor_Maxi_Brick
+
+
+0
+30
+10
+UTSVT_ICs
+CDSOT23-T24CAN
+SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
+SOT-23W
+0
+3
+3
+UTSVT_ICs
+CP2102N-A02-GQFN24
+QFN24 *
+Integrated Circuit
+0
+25
+25
+UTSVT_ICs
+D5V0P4UR6SO-7
+D5V0P4UR6SO-7
+TVS Diode (Uni-directional)
+0
+6
+6
+UTSVT_ICs
+EL3H7
+SOP, 4 Pin (http://www.vishay.com/docs/83510/tcmt1100.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
+UTSVT_ICs
+LM74501QDDFRQ1
+
+
+0
+8
+8
+UTSVT_ICs
+LM76202QPWPRQ1
+HTSSOP16
+Integrated Circuit
+0
+17
+17
+UTSVT_ICs
+SON65P300X300X100-9N
+
+
+0
+9
+9
+UTSVT_ICs
+TCAN337DCNR
+DCN (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+UTSVT_ICs
+TPS1120DR
+D0008A  SOIC
+Integrated Circuit
+0
+8
+8
+UTSVT_ICs
+TPS2115APW
+
+TPS2115APW 
+0
+8
+8
+UTSVT_Special
+ESP32-C6-MINI-1
+ESP32-C6-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
+ESP32-C6
+0
+61
+53
+UTSVT_Special
+LeaderSOM
+
+
+0
+60
+52
+UTSVT_Special
+NucleoL432KC
+
+
+0
+30
+30
+UTSVT_Special
+SW_CJS-1200TA
+
+
+0
+3
+3
+UTSVT_Special
+SW_SPST_B3SL-1002P
+Middle Stroke Tactile Switch, B3SL
+Middle Stroke Tactile Switch
+0
+4
+4
+UTSVT_Special
+Symbol_HighVoltage_Small
+Symbol, Highvoltage, Type 1, Copper Top, Small,
+Symbol, Highvoltage, Type 1, Copper Top, Small,
+0
+0
+0
+UTSVT_Special
+THERM_ERT-J1VR104FM
+
+
+0
+2
+2
+UTSVT_Special
+TestPoint_HEX_3mmID
+
+
+0
+1
+1
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
