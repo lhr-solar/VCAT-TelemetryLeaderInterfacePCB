@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "FPGA_Connector")(type "KiCad")(uri "${KIPRJMOD}/FPGA_Connector.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt_connectors")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/utsvt_connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/694108301002/KiCad/New_Library.kicad_sym")(options "")(descr ""))
 )

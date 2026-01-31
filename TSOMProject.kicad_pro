@@ -448,7 +448,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "New_Library"
+    ]
   },
   "meta": {
     "filename": "TSOMProject.kicad_pro",
@@ -637,6 +639,10 @@
     [
       "ef6d8fcc-1a96-4a17-99c8-973fa999e378",
       "IMU"
+    ],
+    [
+      "3dfa5878-c6a8-4afa-a50e-575ab1e49328",
+      "Power Inputs"
     ]
   ],
   "text_variables": {}

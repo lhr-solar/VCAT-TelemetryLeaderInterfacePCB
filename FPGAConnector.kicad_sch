@@ -416,7 +416,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_7"
@@ -4235,6 +4235,10 @@
 		(instances
 			(project ""
 				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/555dcf2f-9cf7-4916-9b4f-3a8f620095c0"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/5da8fdf4-ad8c-47df-b08e-df168b9b0cb6"
 					(reference "J4")
 					(unit 1)
 				)

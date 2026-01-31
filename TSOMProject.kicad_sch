@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 92.075 34.925)
+		(size 43.815 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3dfa5878-c6a8-4afa-a50e-575ab1e49328")
+		(property "Sheetname" "Power Inputs"
+			(at 92.075 34.2134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerinputs.kicad_sch"
+			(at 92.075 57.0996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 156.845 64.77)
 		(size 59.055 33.02)
 		(exclude_from_sim no)
