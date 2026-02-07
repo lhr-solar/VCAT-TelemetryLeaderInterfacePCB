@@ -1,0 +1,14 @@
+# KiCad backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.kicad_prl
+*-backups/
+
+# Local configuration and caches
+fp-info-cache
+*.lck
+
+# Output files (Optional - keep if you want to track your Gerbers)
+/gerbers/
+*.pdf
