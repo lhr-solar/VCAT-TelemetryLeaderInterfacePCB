@@ -132,48 +132,6 @@
 		)
 	)
 	(sheet
-		(at 158.115 106.68)
-		(size 57.785 33.655)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6349284a-84d0-4426-872b-273836eb7053")
-		(property "Sheetname" "RF"
-			(at 158.115 105.9684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RF.kicad_sch"
-			(at 158.115 140.9196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "TSOMProject"
-				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 34.29 149.86)
 		(size 54.61 34.29)
 		(exclude_from_sim no)

@@ -5039,6 +5039,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 196.85 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d705b6ee-c73e-4da4-bbdb-235dc059b563")
+		(property "Reference" "#PWR020"
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fcea0d8-47f9-43cc-8eda-d93a19c8bdc1")
+		)
+		(instances
+			(project ""
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/d8680ae9-0acb-42e1-892b-ebdc48294ea6"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DataAcqLeaderBoard-Symbols:2994TR")
 		(at 80.01 116.84 90)
 		(unit 1)
@@ -5361,73 +5427,6 @@
 			(project "TSOMProject"
 				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/d8680ae9-0acb-42e1-892b-ebdc48294ea6"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7d8b71c-b74a-4d34-8879-827ad19aa75d")
-		(property "Reference" "#PWR079"
-			(at 196.85 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f064a79d-0e40-4f32-94f7-04802c9f579a")
-		)
-		(instances
-			(project "TSOMProject"
-				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/d8680ae9-0acb-42e1-892b-ebdc48294ea6"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
