@@ -17,3 +17,6 @@ fp-info-cache
 # Output files (Optional - keep if you want to track your Gerbers)
 /gerbers/
 *.pdf
+
+# Windows Zone Identifier metadata
+*:Zone.Identifier
