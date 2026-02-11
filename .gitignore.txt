@@ -1,22 +1,47 @@
-# KiCad backup files
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.sch-bak
+*-backups
 *.kicad_prl
-*-backups/
-
-# KiCad Autosave files
+*.sch-bak
+*~
 _autosave-*
-*.autosave
-*.bak
-
-# Local configuration and caches
+*.tmp
+*-save.pro
+*-save.kicad_pcb
 fp-info-cache
-*.lck
+~*.lck
+\#auto_saved_files#
+*.log
 
-# Output files (Optional - keep if you want to track your Gerbers)
-/gerbers/
-*.pdf
+# Netlist files (exported from Eeschema)
+*.net
 
-# Windows Zone Identifier metadata
-*:Zone.Identifier
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+#Mac Specific
+.DS_Store
+
+# JLCPCB Production Files
+Production/
+
+# Backups
+*-backups/*
+
+# Virtual Environments
+*venv
+
+# Documentation
+/site
