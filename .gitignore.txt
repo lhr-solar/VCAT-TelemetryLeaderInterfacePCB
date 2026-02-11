@@ -5,6 +5,11 @@
 *.kicad_prl
 *-backups/
 
+# KiCad Autosave files
+_autosave-*
+*.autosave
+*.bak
+
 # Local configuration and caches
 fp-info-cache
 *.lck
