@@ -1,0 +1,16 @@
+.ASM330LHHTR :1 ;STMICROELECTRONICS - ASM330LHHTR - MEMS MOD, 3-AXIS GYROSCOPE/ACCELEROMETER
+LSM6DS3USTR
+*STM IC
+*NGS
+*PLB 1="SDO/SA0" 2="RES_1" 3="RES_2" 4="INT1" 5="VDDIO" 6="GND_1" 7="GND_2" 8="VDD" 9="INT2" 10="NC_1" 11="NC_2" 12="CS" 13="SCL" 14="SDA"
+*MXP 14
+*DFN ASM330LHHTR
+~!Mouser Part Number (511-ASM330LHHTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ASM330LHHTR?qs=lc2O%252BfHJPVYgP8P9MzExKQ%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (ASM330LHHTR)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/asm330lhh.pdf)
+~!Height (0.86mm)
+~!3D_Model (ASM330LHHTR)
+ASM330LHHTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 
