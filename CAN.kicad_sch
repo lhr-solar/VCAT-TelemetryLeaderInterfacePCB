@@ -1,0 +1,348 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "13489fc3-3180-4717-9bb4-3b6b18049811")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "TelCAN_L"
+		(shape input)
+		(at 215.9 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ea82dc6-5e16-47c3-aaee-f2e5e15973d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.2914 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TelCAN_TX"
+		(shape input)
+		(at 168.91 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c69deb9-3ab6-4471-ad4e-e33153c5e902")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.3696 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TelCAN_H"
+		(shape input)
+		(at 215.9 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a382047-ec47-4641-a214-a9a50a274b8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.5938 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CarCAN_RX"
+		(shape input)
+		(at 59.69 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a299a76-08d4-49c8-9375-9afb3f36b4b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3634 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CarCAN_L"
+		(shape input)
+		(at 106.68 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bb65e0b-a256-41c6-9ab5-8cef5ea399c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.5552 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TelCAN_RX"
+		(shape input)
+		(at 168.91 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c077ce53-2840-40e6-933b-ab8209c892c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.0672 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CarCAN_H"
+		(shape input)
+		(at 106.68 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cadac09f-e8ce-4db8-aa24-a478840021f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.8576 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CarCAN_TX"
+		(shape input)
+		(at 59.69 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc443bab-4739-4aa4-a64c-d577d0e4be21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.6658 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 25.4)
+		(size 46.99 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d35b9186-7c94-4e12-a7af-a97f53a91d99")
+		(property "Sheetname" "TelCAN Transciever"
+			(at 168.91 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_Transciever.kicad_sch"
+			(at 168.91 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX" bidirectional
+			(at 168.91 33.02 180)
+			(uuid "35e23d27-5c7a-4a0e-b95b-a22a4cac519f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" bidirectional
+			(at 168.91 38.1 180)
+			(uuid "5366ae4f-9892-4d2d-88df-c59fb4fbfe96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 215.9 33.02 0)
+			(uuid "e76a3fa2-2549-48fb-90fb-803946e3fe3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 215.9 38.1 0)
+			(uuid "b6335008-efac-4ec9-b509-4430d4f3233b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/deed15db-a132-4198-8ee6-126292ab05fe"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 24.13)
+		(size 46.99 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db508b14-e19b-49a4-80f4-690b9446e028")
+		(property "Sheetname" "CarCAN Transciever"
+			(at 59.69 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_Transciever.kicad_sch"
+			(at 59.69 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX" bidirectional
+			(at 59.69 31.75 180)
+			(uuid "0abbd4b6-39e8-49d1-b61e-a1c3d22f71e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" bidirectional
+			(at 59.69 36.83 180)
+			(uuid "26667681-6513-4111-91bb-135c225af1d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 106.68 31.75 0)
+			(uuid "1d36b859-a6a8-4802-b9e2-d68aec0f8dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 106.68 36.83 0)
+			(uuid "e13c1d8c-7b40-47e0-9933-99ff6dffe6cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TSOMProject"
+				(path "/f13eb969-5de0-437e-a1b7-e0204111e0b2/deed15db-a132-4198-8ee6-126292ab05fe"
+					(page "9")
+				)
+			)
+		)
+	)
+)
