@@ -3108,6 +3108,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C64705"
+			(at 97.155 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6ec2750-611c-4978-b4e3-4c8b3d1a6a71")
 		)
@@ -3178,6 +3187,15 @@
 		)
 		(property "P/N" "NVMFWS1D7N04XMT1G"
 			(at 135.255 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C133142"
+			(at 128.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,6 +3500,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C133142"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "40751d26-fb92-439d-b58d-4bd96541f58c")
 		)
@@ -3676,6 +3703,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 252.095 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "114c225d-5fe8-4b9b-8da0-178620014f55")
 		)
@@ -3774,6 +3810,15 @@
 		)
 		(property "Vf" ""
 			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 85.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,6 +4064,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 241.935 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f54a9b49-fcaa-468f-9ac4-a1faf7c1c62c")
 		)
@@ -4118,6 +4172,15 @@
 		)
 		(property "Vf" ""
 			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907165"
+			(at 215.265 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,6 +4352,15 @@
 		)
 		(property "Vf" ""
 			(at 148.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 151.765 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,6 +4646,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5219202"
+			(at 113.03 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0175853-3094-42d1-ae65-e344a4d684aa")
 		)
@@ -4762,6 +4843,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13259"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "751598e8-89a0-4294-bcf4-3da7afe3c3a7")
 		)
@@ -4861,6 +4951,15 @@
 		)
 		(property "P/N" "SMAF4758A-TP"
 			(at 81.28 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C183490"
+			(at 84.455 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,6 +5073,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 72.39 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c25b94cb-e033-4c0d-8a3c-c233e6cf28fe")
 		)
@@ -5073,6 +5181,15 @@
 		)
 		(property "Vf" ""
 			(at 226.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 229.87 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,6 +5362,15 @@
 		)
 		(property "Vf" ""
 			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25811"
+			(at 135.89 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,6 +5616,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 95.885 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4de02112-62a6-4278-aa11-564d9e7375db")
 		)
@@ -5655,6 +5790,15 @@
 		)
 		(property "Vf" ""
 			(at 213.36 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7371904"
+			(at 217.17 84.1374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
