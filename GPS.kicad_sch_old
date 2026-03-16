@@ -3795,6 +3795,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 212.09 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "422e58b1-df36-4afd-bd80-2bf208a93a8c")
 		)
@@ -4017,6 +4026,15 @@
 		)
 		(property "P/N" "C0805C105J4RAC7210"
 			(at 173.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57112"
+			(at 176.784 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 99.822 55.88 90)
 			(effects
 				(font
@@ -4491,6 +4509,15 @@
 		)
 		(property "P/N" "APTD2012LCGCK "
 			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7371904"
+			(at 105.41 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,6 +4823,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 105.41 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6b39156-35ee-4583-93e8-9f0c162baf4c")
 		)
@@ -4885,6 +4921,15 @@
 		)
 		(property "P/N" "C0805C105J4RAC7210"
 			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 94.234 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,6 +5127,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 112.395 82.677 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dc0eea0-ceca-4ba2-8631-8fe6e5da10f4")
 		)
@@ -5211,6 +5265,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 202.438 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,6 +5658,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 99.314 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51c51a46-bcb9-4e9d-8692-a935adae239a")
 		)
@@ -5820,6 +5892,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 182.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86068"
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,6 +6303,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1671"
+			(at 208.534 127.7666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1121f711-02f2-4fde-9979-ff9ed0c0584a")
 		)
@@ -6485,6 +6575,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 104.14 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3d0a8c6-8ec2-4f87-a052-de3d9e99fd7f")
 		)
@@ -6716,6 +6815,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 115.57 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9cde3389-b131-48dd-a0f1-836855bf2776")
 		)
@@ -6803,6 +6911,15 @@
 		)
 		(property "P/N" "CRCW08051K00FKEAC"
 			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 95.25 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)

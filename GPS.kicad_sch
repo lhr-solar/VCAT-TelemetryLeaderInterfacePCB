@@ -4368,7 +4368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 99.822 55.88 90)
 			(effects
 				(font
@@ -5757,6 +5757,15 @@
 		)
 		(property "P/N" "CRCW08051K00FKEAC"
 			(at 173.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
+			(at 176.53 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
