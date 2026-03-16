@@ -1,4 +1,4 @@
-25377440968299270
+25380997407065781
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94507,6 +94507,13 @@ DigiXBee3LTECat4
 20
 20
 TSOM Lib
+GRADCONN_RFPC-SMA28-F
+
+
+0
+5
+5
+TSOM Lib
 LM61495RPHR
 RPH0016B-2022
 Integrated Circuit
@@ -101051,6 +101058,13 @@ Integrated Circuit
 0
 5
 5
+UTSVT_Power
+HV-Fuse
+
+05200101Z 
+0
+2
+2
 UTSVT_Power
 LM76202QPWPRQ1
 HTSSOP16
